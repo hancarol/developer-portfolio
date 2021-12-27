@@ -10,6 +10,12 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Comic+Neue&family=Kalam&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles.css" />
     <title>Caroline Ko - Frontend Developer</title>
   </head>
@@ -51,17 +57,38 @@
     </nav>
 
     <div class="main-body">
-      <h1>Caroline Ko, Front-end Developer</h1>
-      <p>Based in Michigan, US</p>
+      <h1 class="main-heading">Caroline Ko, Front-end Developer</h1>
+      <p class="location-paragraph">Based in Michigan, US</p>
     </div>
-
     <div class="container">
       <div class="row">
-        <div class="col">About Me</div>
-
-        <div class="col">Projects</div>
+        <div class="col-md-6">
+          <div class="main-about-me-paragraphs">
+            <h2 class="mb-3">About Me</h2>
+            <p>
+              I am a Licensed Veterinary Technician (LVT) and have been in the
+              veterinary field for about 7 years. However, ever since I found my
+              new passion in software development, it has been the best journey
+              for me.
+            </p>
+            <a href="#" class="btn btn-light"><strong>About me</strong></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="main-projects-paragraphs">
+            <h2 class="mb-3">Projects</h2>
+            <p class="pb-1">
+              I have completed multiple websites and applications to showcase
+              the skills I have learned and implemented those skills in the form
+              of responsive websites and applications.
+            </p>
+            <br />
+            <a href="#" class="btn btn-light"> <strong>Projects</strong></a>
+          </div>
+        </div>
       </div>
     </div>
+    <h2 class="footer"></h2>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

@@ -1,19 +1,69 @@
 :root {
-    --primary-color: rgb(242, 221, 193, 0.5);
-    --secondary-color: rgb(226, 194, 185, 0.5); 
+  --primary-color: rgb(242, 221, 193, 0.5);
+  --secondary-color: rgb(226, 194, 185, 0.5);
+  --font-color: rgb(48, 52, 54, 0.8);
+  --primary-font: "Kalam", cursive;
+  --secondary-font: "Comic Neue", cursive;
 }
 
+h1,
+h2 {
+  font-family: var(--primary-font);
+  color: var(--font-color);
+}
 
+p {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+.footer {
+  padding: 20px 0px 300px 0px;
+  background-image: url(/images/pink-background.webp);
+  opacity: 0.3;
+}
+
+.location-paragraph {
+  font-size: 30px;
+  color: white;
+}
 
 .body {
-    margin-top: 150px;
+  margin-top: 150px;
 }
-
 
 .main-body {
-    background: var(--secondary-color);
-    text-align: center;
-    padding: 200px;
-    margin-bottom: 30px;
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 200px;
+  margin-bottom: 30px;
 }
 
+.main-about-me-paragraphs,
+.main-projects-paragraphs {
+  border: 3px solid var(--primary-color);
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.main-heading {
+  font-size: 70px;
+  color: white;
+}
+
+.btn {
+  background-image: url(/images/water-color.jpg);
+  padding: 10px 40px;
+  text-align: center;
+  font-family: var(--secondary-font);
+  border-radius: 100px;
+}
+
+.btn:hover {
+  background: white;
+  border: 1px solid black;
+}
