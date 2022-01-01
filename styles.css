@@ -19,6 +19,15 @@ p {
   padding: 0;
 }
 
+.my-pic {
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px var(--secondary-color);
+
+  max-width: 100%;
+  opacity: 95%
+  
+}
+
 .footer {
   padding: 20px 0px 300px 0px;
   background-image: url(/images/pink-background.webp);
