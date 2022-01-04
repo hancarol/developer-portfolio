@@ -12,7 +12,7 @@ h2 {
   color: var(--font-color);
 }
 
-p {
+p, .skills{
   font-family: var(--secondary-font);
   font-size: 20px;
   margin: 0 0 30px 0;
@@ -66,7 +66,7 @@ li {
 .main-body {
   background: var(--secondary-color);
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
   margin-bottom: 30px;
 }
 
@@ -84,12 +84,11 @@ li {
   color: white;
 }
 
-.main-image {
-  margin-top: 100px;
-  margin-bottom: 30px;
+.main-image { 
   border-radius: 100%;
-
   opacity: 0.9;
+  margin-top: 50px;
+  margin-bottom: 15px;
 }
 
 .welcome {
