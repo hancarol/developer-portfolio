@@ -1,6 +1,5 @@
 :root {
-  --primary-color: rgb(242, 221, 193, 0.5);
-  --secondary-color: rgb(226, 194, 185, 0.6);
+  --primary-color: rgb(226, 194, 185, 0.6);
   --font-color: rgb(48, 52, 54, 0.8);
   --primary-font: "Kalam", cursive;
   --secondary-font: "Comic Neue", cursive;
@@ -12,7 +11,8 @@ h2 {
   color: var(--font-color);
 }
 
-p, .skills{
+p,
+.skills {
   font-family: var(--secondary-font);
   font-size: 20px;
   margin: 0 0 30px 0;
@@ -24,12 +24,26 @@ nav {
 }
 
 li {
- list-style: none;
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+h6{
+  text-align: center;
+  font-family: var(--secondary-font);
+}
+.main-body {
+  background: var(--primary-color);
+  opacity: 0.7;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .fab {
   font-size: 40px;
-  color: white;
+  color:white;
 }
 
 .main-video {
@@ -44,34 +58,15 @@ li {
   opacity: 0.8;
 }
 
-.my-pic {
-  border-radius: 50px;
-  box-shadow: 10px 10px 5px var(--secondary-color);
-
-  max-width: 100%;
-  opacity: 95%;
-}
-
-.footer {
-  padding: 20px 0px 300px 0px;
-  background-image: url(/images/pink-background.webp);
-  opacity: 0.3;
-}
 
 .location-paragraph {
   font-size: 30px;
   color: white;
 }
 
-.main-body {
-  background: var(--secondary-color);
-  text-align: center;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
-}
-
 .main-about-me-paragraphs,
-.main-projects-paragraphs, .skill-list {
+.main-projects-paragraphs,
+.skill-list {
   border: 3px solid var(--primary-color);
   text-align: center;
   padding: 50px;
@@ -84,14 +79,14 @@ li {
   color: white;
 }
 
-.main-image { 
+.main-image {
   border-radius: 100%;
   opacity: 0.9;
   margin-top: 50px;
   margin-bottom: 15px;
 }
 
-.welcome {
+.welcome{
   position: relative;
   z-index: 1;
   color: white;
@@ -111,4 +106,12 @@ li {
 .btn:hover {
   background: white;
   border: 1px solid black;
+}
+
+@media (max-width: 800px) {
+  .skills li{
+    display: inline;
+    
+  }
+  
 }
