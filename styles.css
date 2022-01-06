@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(226, 194, 185, 0.6);
+  --primary-color: rgb(227, 158, 183, 0.5);
   --font-color: rgb(48, 52, 54, 0.8);
   --primary-font: "Kalam", cursive;
   --secondary-font: "Comic Neue", cursive;
@@ -29,13 +29,17 @@ li {
   margin-right: 10px;
 }
 
-h6{
+h6 {
   text-align: center;
   font-family: var(--secondary-font);
 }
+
+.projects-page {
+  background-color: var(--primary-color);
+}
+
 .main-body {
   background: var(--primary-color);
-  opacity: 0.7;
   text-align: center;
   padding-bottom: 20px;
   margin-bottom: 30px;
@@ -43,7 +47,7 @@ h6{
 
 .fab {
   font-size: 40px;
-  color:white;
+  color: white;
 }
 
 .main-video {
@@ -54,10 +58,9 @@ h6{
   right: 0;
   width: 100%;
   object-fit: cover;
-  height: 100%;
+  height: auto;
   opacity: 0.8;
 }
-
 
 .location-paragraph {
   font-size: 30px;
@@ -86,11 +89,11 @@ h6{
   margin-bottom: 15px;
 }
 
-.welcome{
+.welcome {
   position: relative;
   z-index: 1;
   color: white;
-  margin: 350px auto;
+  margin: 350px auto 0;
   padding: 70px;
   text-align: center;
 }
@@ -109,9 +112,7 @@ h6{
 }
 
 @media (max-width: 800px) {
-  .skills li{
+  .skills li {
     display: inline;
-    
   }
-  
 }
