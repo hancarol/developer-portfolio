@@ -3,6 +3,7 @@
   --font-color: rgb(48, 52, 54, 0.8);
   --primary-font: "Kalam", cursive;
   --secondary-font: "Comic Neue", cursive;
+  --box-shadow: rgb(227,158,183, 0.6) 8px 8px 8px;
 }
 
 h1,
@@ -34,20 +35,22 @@ h6 {
   font-family: var(--secondary-font);
 }
 
-.projects-page h1 {
-  background-color: rgb(227, 158, 183, 0.6);
-}
-
-.projects-page img {
-  width: auto;
-  min-height: 40%;
-}
-
 .main-body {
   background: var(--primary-color);
   text-align: center;
   padding-bottom: 20px;
   margin-bottom: 30px;
+}
+
+.location-paragraph {
+  font-size: 30px;
+}
+
+.project-page img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 250px;
 }
 
 .fab {
@@ -63,13 +66,8 @@ h6 {
   right: 0;
   width: 100%;
   object-fit: cover;
-  height: auto;
+  height: 100%;
   opacity: 0.8;
-}
-
-.location-paragraph {
-  font-size: 30px;
-  color: white;
 }
 
 .main-paragraphs,
@@ -87,6 +85,7 @@ h6 {
 }
 
 .main-image {
+  border: 3px solid var(--primary-color);
   border-radius: 100%;
   opacity: 0.9;
   margin-top: 50px;
@@ -100,6 +99,18 @@ h6 {
   margin: 350px auto 0;
   padding: 70px;
   text-align: center;
+}
+
+.main-body,
+.projects-page {
+   background-image: url(/images/water-color.jpg);
+  background-size: 100% 100%;
+}
+
+.project-page img {
+  border-radius: 30px;
+  opacity: 0.8;
+  box-shadow: var(--box-shadow);
 }
 
 .btn {
