@@ -47,7 +47,7 @@ h6 {
 }
 
 .main-body-paragraphs img {
-  display: block;
+  display: flex;
   margin: 0px auto;
   width: 80%;
   height: 300px;
