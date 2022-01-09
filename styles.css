@@ -48,10 +48,10 @@ h6 {
 
 .main-body-paragraphs img {
   display: block;
-  margin: 0 auto;
+  margin: 50px auto;
   max-width: 100%;
   max-height: 250px;
-  border-radius: 30px;
+  border-radius: 20px;
   opacity: 0.8;
   box-shadow: var(--box-shadow);
 }
