@@ -48,7 +48,7 @@ h6 {
 
 .main-body-paragraphs img {
   display: block;
-  margin: 50px auto;
+  margin: 40px auto;
   max-width: 100%;
   max-height: 250px;
   border-radius: 20px;
@@ -109,6 +109,10 @@ h6 {
   margin: 350px auto 0;
   padding: 70px;
   text-align: center;
+}
+
+.contact-me-paragraph {
+  margin-top: 150px;
 }
 
 .main-body {
