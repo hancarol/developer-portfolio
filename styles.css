@@ -48,9 +48,9 @@ h6 {
 
 .main-body-paragraphs img {
   display: block;
-  margin: 40px auto;
-  max-width: 100%;
-  max-height: 250px;
+  margin: 0px auto;
+  width: 80%;
+  height: 300px;
   border-radius: 20px;
   opacity: 0.8;
   box-shadow: var(--box-shadow);
@@ -84,7 +84,7 @@ h6 {
 .skill-list {
   border: 3px solid var(--primary-color);
   text-align: center;
-  padding: 50px;
+  padding: 30px;
   margin-bottom: 30px;
   border-radius: 20px;
 }
@@ -118,6 +118,10 @@ h6 {
 .main-body {
   background-image: url(/images/water-color.jpg);
   background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.project-image {
 }
 
 .btn {
@@ -133,8 +137,24 @@ h6 {
   border: 1px solid black;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 780px) {
   .skills li {
     display: inline;
+  }
+  .contact-me-paragraph {
+    margin-top: 40px;
+  }
+  .aboutme-project-paragraph {
+    margin-bottom: 0px;
+  }
+  .welcome {
+    margin-top:40px;
+    margin-bottom: 0;
+  }
+  .main-heading {
+    font-size: 50px;
+  }
+  .location-paragraph {
+    font-size: 20px;
   }
 }
